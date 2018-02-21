@@ -3,7 +3,7 @@
 /*
 FUNCIONES: perror, strerror
 EXPLICACION:
-    -perror(msg): Muestra un mensaje msg seguido de :, un espacio y la representación
+    -perror(msg): Muestra un mensaje msg seguido de ':', un espacio y la representación
     en string de la variable global errno.
 
     -strerror(errno): Representación en string de la variable errno.
