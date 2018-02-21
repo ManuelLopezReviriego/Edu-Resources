@@ -4,12 +4,15 @@
 FUNCIONES: fprintf
 EXPLICACION:
     Es parecido a printf. Se diferencian en que fprintf nos
-    permite especificar dÛnde escribir la informaciÛn (stream).
+    permite especificar d√≥nde escribir la informaci√≥n (stream).
 
         fprintf(FILE *stream, const char* format, ...)
         
-    Si stream = stderr, entonces imprimir· en la salida est·ndar
-    de errores, que podrÌa ser un archivo, la consola, etc.
+    Si stream = stderr, entonces imprimir√° en la salida est√°ndar
+    de errores, que podr√≠a ser un archivo, la consola, etc.
+    
+    Nota: FILE representa un flujo (stream), no tiene por qu√©
+    ser un archivo. Se denomina as√≠ por razones hist√≥ricas.
 */
 int main(){
 
