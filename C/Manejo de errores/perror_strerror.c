@@ -12,7 +12,7 @@ EXPLICACION:
 */
 int main(int argvc, char ** argv) {
     FILE* pf;
-    pf = fopen ("unexist.txt", "rb");
+    pf = fopen ("not_exists.txt", "rb");
     perror("Ha habido un error!");
     printf("Codigo de error (errno): %d", errno);
     printf("\n%s", strerror(errno));
