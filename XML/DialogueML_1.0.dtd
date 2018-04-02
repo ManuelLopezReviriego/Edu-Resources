@@ -1,0 +1,21 @@
+<!-- DialogueML 1.0 DTD
+
+     This is the Dialogue Markup Language (DialogueML) 1.0, an XML
+     application for describing dialogues in videogames (with NPCs).
+
+     Copyright (c) 2018 Manuel López Reviriego, All Rights 
+     Reserved.
+
+     License: GNU GPLv3
+
+-->
+
+<!ELEMENT dialogues (dialogue*)>
+<!ELEMENT dialogue (msg, (option, option, option?)?)>
+<!ELEMENT option (#PCDATA)>
+<!ELEMENT msg (#PCDATA)>
+
+<!ATTLIST dialogue id ID #REQUIRED>
+
+<!ATTLIST option next IDREF #REQUIRED>
+<!ATTLIST option action CDATA "none">
